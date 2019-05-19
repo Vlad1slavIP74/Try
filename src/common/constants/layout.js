@@ -1,0 +1,6 @@
+export const CREATE_BET_OPEN = 'CREATE_BET_OPEN'
+export const JOIN_BET_OPEN = 'JOIN_BET_OPEN'
+export const BET_FORM_CLOSE = 'BET_FORM_CLOSE'
+export const SIDEBAR_OPEN = 'SIDEBAR_OPEN'
+export const SIDEBAR_CLOSE = 'SIDEBAR_CLOSE'
+export const CHANGE_COLOR_MODE = 'CHANGE_COLOR_MODE'

@@ -1,0 +1,235 @@
+/* Scss is written as a case study and a proof of CSS support */
+
+form {
+  margin-bottom: 0px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+p, span {
+  font-size: 15px;
+  word-break: break-word;
+}
+
+.no-min-width {
+  min-width: auto !important;  
+}
+
+.w-50 {
+  width: 50px !important;
+}
+
+.w-55 {
+  width: 55px !important;
+}
+
+.w-70 {
+  width: 70px !important;
+}
+
+.w-75 {
+  width: 75px !important;
+}
+
+.w-100 {
+  width: 100px !important;
+}
+
+.w-120 {
+  width: 120px !important;
+}
+
+.w-150 {
+  width: 150px !important;
+}
+
+.w-175 {
+  width: 175px !important;
+}
+
+.w-185 {
+  width: 185px !important;
+}
+
+.w-200 {
+  width: 200px !important;
+}
+
+.w-250 {
+  width: 250px !important;
+}
+
+.w-225 {
+  width: 225px !important;
+}
+
+.w-250 {
+  width: 250px !important;
+}
+
+.fullWidth {
+  width: 100% !important;
+}
+
+.ui.table td {
+  width: auto !important;
+}
+
+.ui.dimmer {
+  cursor: pointer !important;
+}
+
+body.animating.in.dimmable, body.dimmed.dimmable {
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed !important;
+    overflow: hidden !important;
+}
+
+/* datetimepicker Error class */
+.rw-datetime-picker {
+  font-family: 'Proxima Nova', sans-serif !important;
+  font-size: 15px !important;
+  display: inline-block;
+  margin-left: 10px;
+  width: 220px;
+}
+
+.rw-datetime-picker input{
+  font-size: 15px !important;
+  padding: 8px 12px !important;
+}
+
+.date-time-picker > input::placeholder{
+  color: #b8b8b8 !important;
+}
+
+.rw-datetime-picker > input {
+  color: rgb(43, 43, 43) !important;  
+}
+
+.datetimepicker-error {
+  background-color: #FFF !important;
+  border-color: #E0B4B4 !important;
+  color: #9F3A38 !important;
+  box-shadow: none !important;
+}
+
+.datetimepicker-error > input {
+  background-color: #FFF !important;
+  color: black !important;
+}
+
+.datetimepicker-error > input {
+  color: #9F3A38 !important;
+}
+
+.rw-datetime-picker > input {
+  color: rgb(43, 43, 43) !important;  
+}
+
+
+.datetimepicker-error input::placeholder {
+  color: #e2caca !important;
+}
+
+.rw-datetime-picker > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:  #b0b0b0 !important;  
+  opacity: 1 !important; /* Firefox */
+}
+
+.rw-datetime-picker > input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:  #b0b0b0 !important;  
+}
+
+.rw-datetime-picker > input::-ms-input-placeholder { /* Microsoft Edge */
+  color:  #b0b0b0 !important;  
+}
+
+.rw-state-focus>.rw-widget-container{
+  box-shadow: none !important;
+}
+
+/* Input label style */
+.ui.basic.label {
+  background: none;
+  padding-left: 0px;
+  border-left: 0px;
+  color: #b0b0b0;
+}
+
+.labeled >  .ui.basic.label {
+  padding: 6px 2px !important;
+  border-left: 0px;
+}
+
+.ui.disabled > .basic.label {
+  popointer-events: none;
+  background: #eee;
+}
+
+.ui.disabled select {
+  pointer-events: none;
+}
+
+.ui.error > .basic.label {
+  background-color: #fff;
+  border-color: #E0B4B4 !important;
+  color: #9F3A38 !important;
+  box-shadow: none !important;
+}
+
+.ui.labeled input{
+  padding-right: 5px !important;
+}
+
+.ui.labeled input:focus {
+  border-right: 0px solid;
+}
+
+.ui.labeled input:focus ~ .ui.basic.label {
+  border: 1px solid #85B7D9;
+  border-left: 0px;
+}
+
+/* PUSHER DIMMED */
+.pusher.dimmed {
+  overflow: hidden !important;
+  height: 100%;
+}
+
+.ui.page.modals.dimmer{
+  overflow: auto !important;
+}
+
+.ui.secondary.menu .item {
+  height: 32px !important;
+}
+
+@media (max-width: 481px) {
+  .ui.modal {
+    max-width: 361px !important;
+  }
+
+  .ui.buttons {
+    margin-left: 39px !important;
+    padding-top: 0px !important;
+  }
+
+  .rw-datetime-picker {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+
+  .w-250 {
+    width: 100% !important;
+  }
+}
+
+@media (max-height: 600px) {
+  .ui.modal.transition.visible.active{
+    margin-top: 25px !important;   
+  }
+}
